@@ -1,47 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Charis+SIL&family=Cormorant:wght@300&family=Dancing+Script&family=Montserrat:ital,wght@0,400;1,300&family=Nuosu+SIL&family=Rubik:wght@300&family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Charis+SIL&family=Cormorant:wght@300&family=Dancing+Script&family=Montserrat:ital,wght@0,400;1,300&family=Nuosu+SIL&family=Rubik:wght@300&family=Staatliches&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Barlow Condensed', sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Condensed", sans-serif;
 }
-header{
-    width:100%;
-    height: 15rem; 
-    margin: 02.5rem 0rem;
-    background-color: white;
+header {
+  width: 100%;
+  height: 15rem;
+  margin: 02.5rem 0rem;
+  background-color: white;
 }
-.headerimg{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 5rem;
-    margin-left: 2.5rem;
-    margin-right: .5rem;
+.headerimg {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
+  margin-left: 2.5rem;
+  margin-right: 0.5rem;
 }
 
 header section {
-    display: flex;
-    justify-content: space-evenly;
-
+  display: flex;
+  justify-content: space-evenly;
 }
-#quickLook{
-    width: 60%;
-    padding: 0.5rem;
+#quickLook {
+  width: 60%;
+  padding: 0.5rem;
 }
-#quickLook h1{
-  
-    padding-bottom: 0.8rem;
-    padding-top: 0.4rem;
-    color: #6a846b
+#quickLook h1 {
+  padding-bottom: 0.8rem;
+  padding-top: 0.4rem;
+  color: #6a846b;
 }
- button{
-    border: 0.1rem solid #5e7252;
-    border-radius: 2.5rem;
-    width: 20%;
-    height: 1.5rem;
-    font-size: 0.7rem;
-    margin: 1.2rem 5.5rem;
- }
-
+button {
+  border: 0.1rem solid #5e7252;
+  border-radius: 2.5rem;
+  width: 20%;
+  height: 1.5rem;
+  font-size: 0.7rem;
+  margin: 1.2rem 5.5rem;
+}
