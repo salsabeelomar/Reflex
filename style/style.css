@@ -9,35 +9,221 @@
 header {
   width: 100%;
   height: 15rem;
-  margin: 02.5rem 0rem;
+  margin: 2.5rem 0rem;
   background-color: white;
 }
-.headerimg {
-  width: 10rem;
-  height: 10rem;
-  border-radius: 5rem;
+
+.headerimg img {
+  width: 13.5rem;
+  height: 13.5rem;
+  border-radius: 50%;
   margin-left: 2.5rem;
-  margin-right: 0.5rem;
+  margin-right: 2.5rem;
 }
 
 header section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 #quickLook {
-  width: 60%;
+  width: 35%;
   padding: 0.5rem;
 }
 #quickLook h1 {
   padding-bottom: 0.8rem;
   padding-top: 0.4rem;
   color: #6a846b;
+  font-size: 2rem;
 }
 button {
   border: 0.1rem solid #5e7252;
+  background: none;
   border-radius: 2.5rem;
-  width: 20%;
-  height: 1.5rem;
-  font-size: 0.7rem;
+  width: 30%;
+  height: 2rem;
+  font-size: 1rem;
+  color: #4b4949;
   margin: 1.2rem 5.5rem;
+}
+p {
+  color: #4b4949;
+}
+
+.firstSec {
+  text-align: center;
+  position: relative;
+  background-color: #6a846b17;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.lineUl {
+  position: relative;
+  z-index: 1;
+}
+.lineUl::before {
+  content: "";
+  position: absolute;
+  left: 39%;
+  height: 0.25rem;
+  width: 13.15rem;
+  top: 2rem;
+  border-bottom: 0.05rem solid #5e7252;
+}
+
+/**/
+h3,
+h2 {
+  color: #6a846b;
+  margin: 1.5rem 0rem;
+  font-size: 2rem;
+}
+h4 {
+  color: #6a846b;
+  margin: 1.5rem 0rem;
+  font-size: 1.25rem;
+}
+.firstSec:after {
+  content: "";
+  position: absolute;
+  border-top: 0.05rem solid #5e7252;
+  height: 1rem;
+  width: 3.5rem;
+  left: 47%;
+  top: 4.5rem;
+}
+.firstSec p {
+  max-width: 50%;
+  margin-left: 15rem;
+  margin-bottom: 2rem;
+}
+.firstSec button {
+  height: 2rem;
+  width: 7.5rem;
+}
+
+li {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+  padding: 0.8rem;
+  border: 0.1rem solid #5e7252;
+  border-radius: 2rem;
+  color: #5e7252;
+  background-color: #f2f4f2;
+  z-index: 1;
+}
+
+#headOfSec2 {
+  text-align: center;
+  padding-top: 5rem;
+  position: relative;
+}
+#headOfSec2:after {
+  content: "";
+  position: absolute;
+  border-top: 0.05rem solid #5e7252;
+  height: 1rem;
+  width: 3.5rem;
+  left: 47%;
+  top: 4.5rem;
+}
+
+.natureSide {
+  display: flex;
+  justify-content: space-around;
+  margin: 2.5rem 2.5rem;
+}
+.natureInfo {
+  width: 45%;
+  position: relative;
+}
+.natureInfo:after {
+  content: "";
+  position: absolute;
+  border-top: 0.05rem solid #5e7252;
+  height: 1rem;
+  width: 3.5rem;
+  top: 0.5rem;
+  left: 1%;
+}
+
+.natureSide img {
+  width: 26rem;
+  height: 20rem;
+  border-radius: 0.2rem;
+}
+
+.lastLorm {
+  background: none;
+}
+
+.AmetSection {
+  background-color: #3e422da4;
+  background-image: url("/assert/img/section3.avif");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.AmetSection p,
+.AmetSection button {
+  color: #c2ccc2;
+}
+.AmetSection button {
+  width: 10.5rem;
+  height: 2rem;
+}
+
+form {
+  margin-top: 1.5rem;
+}
+form input,
+textarea {
+  margin: 0.5rem 0.3rem;
+  border: 0.1rem solid #aaa1a1d9;
+  padding: 0.25rem;
+  border-radius: 1.1rem;
+}
+input[type="submit"] {
+  color: #5e7252;
+  padding: 0.3rem;
+  border: 0.1rem solid #aaa1a1d9;
+}
+.natureInfo ul {
+  margin-left: -14rem;
+}
+
+.natureInfo ul li {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+footer {
+  color: #9d9595;
+  text-align: center;
+  margin: 2.5rem;
+  position: relative;
+}
+footer::after {
+  content: "";
+  position: absolute;
+  border-top: 0.05rem solid #5e7252;
+  height: 1rem;
+  width: 3.5rem;
+  left: 47%;
+  top: -0.5rem;
+}
+button::hover {
 }
