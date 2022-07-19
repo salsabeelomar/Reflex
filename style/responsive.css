@@ -1,0 +1,102 @@
+@media only screen and (max-width: 600px) {
+  header section {
+    display: inline;
+    /* justify-content: center; */
+  }
+
+  header {
+    height: 22rem;
+  }
+  .headerimg {
+    display: flex;
+    justify-content: center;
+  }
+  .diffside img {
+    order: 2;
+  }
+
+  .headerimg img {
+    width: 10rem;
+    height: 10rem;
+  }
+  #quickLook {
+    text-align: center;
+    width: 100%;
+    padding: 1rem 3.5rem;
+  }
+  button {
+    width: 85%;
+    height: 2rem;
+    margin: 1rem calc(15% / 2);
+  }
+  .firstSec {
+    padding: 2.2rem 1rem;
+    margin-top: 5.5rem;
+  }
+  h3,
+  h2 {
+    color: #6a846b;
+    margin: 1rem 0rem;
+  }
+  .firstSec:after,
+  #headOfSec2:after,
+  .natureInfo::after {
+    content: "";
+    left: 43%;
+    top: 1.5rem;
+  }
+
+  .natureInfo::after {
+    top: -0.5rem;
+  }
+  .natureSide img {
+    width: 100%;
+    height: 21rem;
+  }
+  .lineUl::before {
+    content: "";
+    left: 27%;
+    border-bottom: 0rem;
+  }
+  .natureInfo ul {
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  form {
+    border-top: 0.1rem solid #5e7252;
+    padding: 0 6rem;
+  }
+  form input,
+  textarea {
+    width: 12rem;
+  }
+
+  .firstSec p {
+    text-align: center;
+    margin: 1rem 2rem;
+    max-width: 100%;
+  }
+  ul {
+    padding: 0 4rem;
+  }
+  #headOfSec2 {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  #headOfSec2 p {
+    text-align: center;
+    padding: 0 2rem;
+  }
+  .natureSide {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 2.5rem;
+  }
+  .natureInfo {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+}

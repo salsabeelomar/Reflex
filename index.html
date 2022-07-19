@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <title>Reflex</title>
   </head>
   <body>
     <header>
       <section>
-        <img
-          src="/assert/img/img1.avif"
-          alt="nature photo"
-          class="headerimg"
-          srcset=""
-        />
-
+        <div class="headerimg">
+          <img src="/assert/img/img1.avif" alt="nature photo" srcset="" />
+        </div>
         <div id="quickLook">
           <h1>Reflex</h1>
           <p>
@@ -25,10 +26,144 @@
             fugit? Consequuntur alias error voluptatibus ab nihil laudantium
             odit autem? Eos.
           </p>
-          <button>GET START</button>
+          <button aria-label="get Start">GET START</button>
         </div>
       </section>
     </header>
-    <main></main>
+    <main>
+      <section class="firstSec">
+        <h2>Ipsum malesuada</h2>
+        <p>
+          Rutrum facilisis. Class aptent taciti sociosqu litora torquent et
+          conubia etiam nostra.
+        </p>
+        <ul class="lineUl">
+          <li class="lineContent"><i class="fa-solid fa-code"></i></li>
+          <li class="lineContent"><i class="fa-solid fa-gear"></i></li>
+          <li class="lineContent"><i class="fa-solid fa-gem"></i></li>
+          <li class="lineContent"><i class="fa-solid fa-camera-retro"></i></li>
+          <li><i class="fa-solid fa-briefcase"></i></li>
+        </ul>
+
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse
+            reprehenderit debitis unde odit quaerat ea voluptas neque nesciunt
+            temporibus? Adipisci ad a eligendi eos id maxime laboriosam,
+            blanditiis ab.
+          </p>
+          <button aria-label="Details">Details</button>
+        </div>
+      </section>
+      <section class="sildes">
+        <div id="headOfSec2">
+          <h2>Duis torquent</h2>
+          <p>
+            Rutrum facilisis. Class aptent taciti sociosqu litora torquent et
+            conubia etiam nostra
+          </p>
+        </div>
+        <section class="natureSide">
+          <div class="natureInfo">
+            <h4>Aliquam veroeros</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              esse reprehenderit debitis unde odit quaerat ea voluptas neque
+              nesciunt temporibus? Adipisci ad a eligendi eos id maxime
+              laboriosam, blanditiis ab. placeat natus quis dolor quaerat?
+            </p>
+            <button aria-label="Details">Details</button>
+          </div>
+          <img
+            src="/assert/img/nature1.avif"
+            alt="Aliquam veroeros"
+            srcset=""
+          />
+        </section>
+        <section class="natureSide diffside">
+          <img
+            src="/assert/img/nature2.avif"
+            alt="Aliquam veroeros"
+            srcset=""
+          />
+          <div class="natureInfo">
+            <h4>Aliquam veroeros</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              esse reprehenderit debitis unde odit quaerat ea voluptas neque
+              nesciunt temporibus? Adipisci ad a eligendi eos id maxime
+              laboriosam, blanditiis ab. placeat natus quis dolor quaerat?
+            </p>
+            <button aria-label="Details">Details</button>
+          </div>
+        </section>
+        <section class="natureSide">
+          <div class="natureInfo">
+            <h4>Aliquam veroeros</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              esse reprehenderit debitis unde odit quaerat ea voluptas neque
+              nesciunt temporibus? Adipisci ad a eligendi eos id maxime
+              laboriosam, blanditiis ab. placeat natus quis dolor quaerat?
+            </p>
+            <button aria-label="Details">Details</button>
+          </div>
+          <img
+            src="/assert/img/nature3.avif"
+            alt="Aliquam veroeros"
+            srcset=""
+          />
+        </section>
+        <div class="firstSec lastLorm">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
+            consectetur rerum et repudiandae quod doloremque ut maiores quaerat,
+            cumque illo! Maiores eos corporis inventore, laboriosam soluta illum
+            dolorem atque dignissimos.
+          </p>
+          <button aria-label="Details">Details</button>
+        </div>
+      </section>
+
+      <section class="AmetSection firstSec">
+        <h3>met ultamcorper</h3>
+        <p>
+          Aptent taciti sociosqu litora torquent et conubia sed etiam. Phasellus
+          convallis elit id ullamcorper pulvinar, Duis aliquam turpis mauris,
+          ultricies erat malesuada quis
+        </p>
+        <button aria-label="GET STARTED">GET STARTED</button>
+      </section>
+      <section class="natureSide">
+        <div class="natureInfo">
+          <h4>Magna lorem ipsum</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum esse
+            reprehenderit debitis unde odit quaerat ea voluptas neque nesciunt
+            temporibus? Adipisci ad a eligendi eos id maxime laboriosam,
+            blanditiis ab. placeat natus quis dolor quaerat?
+          </p>
+          <ul>
+            <li class="lineContent"><i class="fa-brands fa-twitter"></i></li>
+            <li class="lineContent"><i class="fa-brands fa-instagram"></i></li>
+            <li class="lineContent"><i class="fa-brands fa-snapchat"></i></li>
+            <li class="lineContent"><i class="fa-brands fa-github"></i></li>
+          </ul>
+        </div>
+
+        <form action="" method="post">
+          <input type="text" name="loremName" placeholder="Name" />
+          <input type="email" name="loremEmail" placeholder="Email" />
+          <br />
+          <textarea rows="4" cols="50" placeholder="Massege..."></textarea>
+
+          <br />
+          <input type="submit" value="SEND MASSEGE" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>@ Untititled All rights lorem ipsum dolor sit amet nullam</p>
+    </footer>
   </body>
 </html>
